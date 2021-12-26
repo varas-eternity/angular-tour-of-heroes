@@ -9,7 +9,7 @@ import { Hero } from '../shared/hero';
 })
 export class HeroDetailComponent implements OnInit {
 
-	@Input() hero?: Hero;
+  @Input() hero?: Hero;
 
   constructor() { }
 
